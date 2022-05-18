@@ -175,7 +175,7 @@ body {
 
 /* Services */
 
-.fa-solid {
+section .fa-solid {
     font-size: 40px;
     background: #fff;
     width: 60px;
@@ -232,7 +232,31 @@ body {
     font-weight: 600;
 }
 
+/* Footer */
+footer {
+    padding: 48px 0;
+}
 
+
+.page-footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page-footer ul li {
+    display: inline-block;
+}
+
+.page-footer i {
+    font-size: 30px;
+    background: $color-one;
+    width: 60px;
+    height: 60px;
+    color: white;
+    padding-top: 15px;
+    border-radius: 50%;
+}
 
 
 
