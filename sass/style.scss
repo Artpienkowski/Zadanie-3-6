@@ -3,7 +3,7 @@ $font-header: 'Roboto', sans-serif;
 $font-text: 'Raleway', sans-serif;
 $font-style: 'Zen Loop', cursive;
 $color-one: #bdc3c7;
-$color-two: #f1c40f;
+$color-two: #af490d;
 $transition: all 1s;
 
 /* Global */
@@ -99,7 +99,7 @@ body {
 }
 
 .navigation li li a {
-    color: darkorange;
+    color: $color-one;
     display: block;
     padding: 0 24px;
 }
@@ -109,8 +109,48 @@ body {
 }
 
 .navigation p {
+    font-family: $font-style;
+    font-size: 30px;
+    letter-spacing: 2px;
     margin: 1px 0;
     padding: 0;
     color: #ffffff;
+    font-weight: bold;
+}
+
+/* Splash */
+ .splash {
+    background-image: url("https://i.postimg.cc/SxNhzv8t/pexels-jadson-thomas-542553.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    min-height: 500px;
+    display: flex;
+ }
+
+ .splash-inner {
+    margin: auto;
+    max-width: 70%;
+    
+}
+
+.page-subtitle {
+    margin: 0;
+    font-size: 72px;
+    
+    font-weight: 700;
+    line-height: 1;
+}
+
+.btn-one {
+    border-color: $color-two;
+    background-color: $color-two;
+    color: white;
+    background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
+}
+
+.btn-one:hover {
+    color: $color-two;
     font-weight: bold;
 }
