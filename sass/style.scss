@@ -204,9 +204,12 @@ section .fa-solid {
 }
 
 .box {
-    padding-bottom: 120px;
-    line-height: 15px;
-    
+    padding-bottom: 50px;
+    line-height: 10px;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column
 }
 
 .card-image {
@@ -220,11 +223,18 @@ section .fa-solid {
     object-fit: cover; 
 }
 
+.card-body {
+    min-height: 1px;
+    padding: 15px;
+    background-color: white;
+}
+
 .card-title {
     font-weight: 900;
     font-family: $font-header;
     font-size: 20px;
-    padding-bottom:2px;  
+    padding-bottom:2px;
+    margin-top: 5px;  
 }
 
 .card-subtitle {
@@ -236,6 +246,7 @@ section .fa-solid {
 footer {
     padding: 48px 0;
 }
+
 
 
 .page-footer ul {
