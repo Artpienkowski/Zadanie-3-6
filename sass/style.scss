@@ -21,6 +21,19 @@ body {
     padding: 96px 0;
 }
 
+.section-title {
+    font-family: $font-header;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.section-subtitle {
+    font-family: $font-text;
+    font-style: italic;
+    font-size: 18px;
+}
+
 .btn {
     display: inline-block;
     min-width: 160px;
@@ -50,7 +63,7 @@ body {
 .navigation {
     padding: 12px 0 ;
     position: relative;
-    height: 50px;
+    height: 70px;
     background-image: url("https://i.postimg.cc/SxNhzv8t/pexels-jadson-thomas-542553.jpg");
     background-position: center center;
     background-size: cover;
@@ -137,10 +150,14 @@ body {
 
 .page-subtitle {
     margin: 0;
+    font-family: $font-header;
     font-size: 72px;
-    
     font-weight: 700;
     line-height: 1;
+}
+
+.page-title {
+    font-family: $font-text;
 }
 
 .btn-one {
@@ -153,4 +170,24 @@ body {
 .btn-one:hover {
     color: $color-two;
     font-weight: bold;
+}
+
+/* Services */
+
+.fa-solid {
+    font-size: 40px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    color: $color-two;
+    border-radius: 55%;
+    border-color: $color-two;
+    border-style: solid;
+    padding-top: 6px;
+}
+
+.Services span {
+    font-weight: 900;
+    font-family: $font-header;
+    font-size: 20px;
 }
